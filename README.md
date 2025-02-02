@@ -21,13 +21,13 @@ Education Rank – The highest level of education attained by the household head
 
 To replicate this analysis, follow these steps:
 
-#### 1️. Install the Required Libraries
+#### Install the Required Libraries
 
 Ensure that you have the necessary Python libraries installed by running:
 
-`pip install pandas numpy matplotlib seaborn scikit-learn`
+`pip install -r requirements.txt`
 
-#### 2️.Execute the Script
+#### Execute the Script
 
 Place the dataset in the appropriate directory and execute the script with:
 
