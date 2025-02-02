@@ -57,10 +57,9 @@ Household size and education level significantly impact expenditure patterns.
 
 The Random Forest model outperformed Linear Regression, suggesting that spending behavior is influenced by multiple non-linear factors.
 
-#### Brought to you by
-
-Thet Mon Thet.
-
 ### Conclusion
 This research provides valuable insights into household financial behavior, which can be applied in economic policy-making, financial planning, and consumer behavior analysis. Future studies can incorporate additional factors such as regional differences and economic conditions to enhance predictive accuracy.
 
+#### Brought to you by ~
+
+Thet Mon Thet.
