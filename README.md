@@ -4,6 +4,25 @@
 
 This project analyzes household income and expenditure patterns to understand how different economic and demographic factors influence spending behaviors. Using data processing, exploratory data analysis (EDA), and machine learning models, we predict household expenditures based on key variables such as income, education, household size, and savings behavior.
 
+# Project Setup
+
+To replicate this analysis, follow these steps:
+
+### Install Required Libraries
+
+Ensure that you have the necessary Python libraries installed by running:
+
+`pip install -r requirements.txt`
+
+### Execute the Script
+
+Place the dataset in the appropriate directory and execute the script with:
+
+`python income_vs_expenditure_analysis.py`
+
+The script will generate **visualizations, statistical summaries, and model predictions.**
+
+
 ## Hypothesis
 
 >Household expenditure patterns are influenced not only by income levels but also by educational attainment.Higher education levels contribute to better financial decision-making, resulting in increased savings and reduced non-essential spending.
@@ -40,7 +59,7 @@ Several analyses were conducted to understand financial behaviors:
 
 We applied Linear Regression and Random Forest Regression to predict household expenditures:
 
-#### 1. Linear Regression Model
+#### Linear Regression Model
 
 **Findings**: There is a strong positive correlation between income and total expenses.
 
@@ -48,7 +67,7 @@ We applied Linear Regression and Random Forest Regression to predict household e
 
 **Impact of Education**: Higher education reduces financial distress by promoting savings and efficient expenditure allocation.
 
-#### 2️. Random Forest Regression Model
+#### Random Forest Regression Model
 
 **Findings**: The model outperforms linear regression in predicting total expenses.
 
@@ -79,25 +98,9 @@ To structure and analyze financial data efficiently, we used a NumPy multi-dimen
 - **The Random Forest model outperformed Linear Regression, suggesting that spending behavior is influenced by multiple non-linear factors.**
 - **Higher education leads to greater financial stability and savings behavior.**
 
-# Project Setup
 
-To replicate this analysis, follow these steps:
 
-### 1️. Install Required Libraries
-
-Ensure that you have the necessary Python libraries installed by running:
-
-`pip install -r requirements.txt`
-
-### 2️. Execute the Script
-
-Place the dataset in the appropriate directory and execute the script with:
-
-`python income_vs_expenditure_analysis.py`
-
-The script will generate **visualizations, statistical summaries, and model predictions.**
-
-### Future Work
+## Future Work
 
 To enhance this study, future research could explore:
 
